@@ -11,6 +11,6 @@ This is a small portfolio project built to showcase my skills in Frontend Develo
 - Navigation bar implementation
 - Basic UI/UX design principles
 
-🔗 Live Website: https://your-username.github.io/repo-name/
+🔗 Live Website: https://abinayavs140.github.io/My_First_online_portfolio/
 
 

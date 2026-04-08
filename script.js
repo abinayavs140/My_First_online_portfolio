@@ -41,7 +41,7 @@ function login() {
   let user = document.getElementById("username").value;
   let pass = document.getElementById("password").value;
 
-  if (user === "abi" && pass === "1234") {
+  if (user === "xyz" && pass === "1234") {
     document.getElementById("loginBox").style.display = "none";
     document.getElementById("adminPanel").classList.remove("hidden");
 

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>Abinaya V</h2>
+  <p>Aspiring Student | Frontend Developer | Applied AI</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#admin-login">Admin</a></li>
+
+    <button id="themeToggle">🌙</button>
+  </ul>
+</nav>
+
+<main>
+  <!-- HOME -->
+
+ <section id="home" class="blocks">
+  <h2>Welcome</h2>
+
+  <div class="content">
+    <p>
+      Hi, I’m <strong>Abinaya V</strong> 👋  
+      An aspiring <strong>Frontend Developer</strong> and <strong>Applied AI student</strong> passionate about building clean, responsive, and user-friendly web applications.
+    </p>
+
+    <p>
+      I enjoy turning ideas into interactive digital experiences using HTML, CSS, and JavaScript.
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="blocks">
+
+  <div class="content">
+  <h2>About Me</h2>
+  <p>
+    I am currently pursuing <strong>B.Tech in Computer Science (Applied AI)</strong> at Takshashila University. 
+    I have a strong interest in frontend development and love designing visually appealing and functional web interfaces.
+  </p>
+  
+  <p>
+    My journey started with curiosity about how websites work, and it has grown into a passion for creating responsive and user-centric applications.
+  </p>
+
+  <p>
+    I am continuously learning new technologies and improving my problem-solving skills to become a professional developer.
+  </p>
+
+  <p><em>"Building simple, clean and impactful web experiences."</em></p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="blocks">
+  <h2>Skills</h2>
+
+  <div class="block-item">
+    <h3>Technical Skills</h3>
+    <p>HTML, CSS, JavaScript, Python</p>
+  </div>
+
+  <div class="block-item">
+    <h3>Core Concepts</h3>
+    <p>Responsive Design, DOM Manipulation, Frontend Development</p>
+  </div>
+
+  <div class="block-item">
+    <h3>Other Strengths</h3>
+    <p>Problem Solving, Logical Thinking, Continuous Learning</p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+
+<section class="blocks" id="education">
+  <h2>Education</h2>
+
+  <div class="block-item">
+    <h3>BTech CSE (Applied AI)</h3>
+    <p>Takshashila University</p>
+    <p>2029</p>
+  </div>
+
+  <div class="block-item">
+    <h3>High School - PCM</h3>
+    <p>Jawahar Higher Secondary School</p>
+    <p>2025</p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+
+<section class="blocks" id="projects">
+  <h2>Projects</h2>
+
+  <div class="block-item">
+    <h3>Online Portfolio</h3>
+    <p>HTML, CSS, JavaScript</p>
+    <p>Built portfolio with contact & admin panel</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="blocks" id="contact">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Name" required>
+
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email" required>
+    <p id="emailError" class="error"></p>
+<label for="Message">Message</label>
+    <textarea id="message" placeholder="Message" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- ADMIN LOGIN -->
+<section class="blocks" id="admin-login">
+  <h2>Admin Login</h2>
+
+  <div id="loginBox">
+    <label for="username">Name</label>
+
+    <input type="text" id="username" placeholder="Username">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- ADMIN PANEL -->
+  <div id="adminPanel" class="hidden">
+    <h3>User Messages</h3>
+    <div id="user-messages"></div>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

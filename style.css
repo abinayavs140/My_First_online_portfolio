@@ -14,7 +14,9 @@ header {
   color: white;
 }
 
-body.dark header h2,
+body.dark h2.heading{
+  color: #1b4661;
+}
 body.dark header p {
   color: #f1f1f1;
 }
